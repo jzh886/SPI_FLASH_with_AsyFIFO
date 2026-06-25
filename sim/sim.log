@@ -1,0 +1,64 @@
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-1_Full64; Runtime version O-2018.09-1_Full64;  Jun 25 15:54 2026
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'spi_flash.fsdb'
+*Verdi* : Begin traversing the scope (tb_SPI_Flash), layer (0).
+*Verdi* : End of traversing.
+[215000] TX FIFO write: 11
+[235000] TX FIFO write: 22
+[255000] TX FIFO write: 33
+[275000] TX FIFO write: 44
+[295000] CMD start: cmd=3 addr=000000 len=0
+[580000] SPI MOSI byte OK: trans=0 byte=0 value=05
+[868000] SPI MOSI byte OK: trans=0 byte=1 value=ff
+[908000] SPI transaction OK: trans=0 len=2
+[935000] CMD done
+[955000] RX FIFO read: ad
+[975000] CMD start: cmd=0 addr=001234 len=4
+[1260000] SPI MOSI byte OK: trans=1 byte=0 value=03
+[1548000] SPI MOSI byte OK: trans=1 byte=1 value=00
+[1836000] SPI MOSI byte OK: trans=1 byte=2 value=12
+[2124000] SPI MOSI byte OK: trans=1 byte=3 value=34
+[2412000] SPI MOSI byte OK: trans=1 byte=4 value=ff
+[2708000] SPI MOSI byte OK: trans=1 byte=5 value=ff
+[3004000] SPI MOSI byte OK: trans=1 byte=6 value=ff
+[3300000] SPI MOSI byte OK: trans=1 byte=7 value=ff
+[3348000] SPI transaction OK: trans=1 len=8
+[3375000] CMD done
+[3395000] RX FIFO read: 52
+[3415000] RX FIFO read: ad
+[3435000] RX FIFO read: 52
+[3455000] RX FIFO read: ad
+[3475000] CMD start: cmd=1 addr=002000 len=4
+[3756000] SPI MOSI byte OK: trans=2 byte=0 value=06
+[3788000] SPI transaction OK: trans=2 len=1
+[4052000] SPI MOSI byte OK: trans=3 byte=0 value=02
+[4340000] SPI MOSI byte OK: trans=3 byte=1 value=00
+[4628000] SPI MOSI byte OK: trans=3 byte=2 value=20
+[4916000] SPI MOSI byte OK: trans=3 byte=3 value=00
+[5212000] SPI MOSI byte OK: trans=3 byte=4 value=11
+[5516000] SPI MOSI byte OK: trans=3 byte=5 value=22
+[5820000] SPI MOSI byte OK: trans=3 byte=6 value=33
+[6124000] SPI MOSI byte OK: trans=3 byte=7 value=44
+[6172000] SPI transaction OK: trans=3 len=8
+[6195000] CMD done
+[6215000] CMD start: cmd=2 addr=003000 len=0
+[6500000] SPI MOSI byte OK: trans=4 byte=0 value=06
+[6532000] SPI transaction OK: trans=4 len=1
+[6796000] SPI MOSI byte OK: trans=5 byte=0 value=20
+[7084000] SPI MOSI byte OK: trans=5 byte=1 value=00
+[7372000] SPI MOSI byte OK: trans=5 byte=2 value=30
+[7660000] SPI MOSI byte OK: trans=5 byte=3 value=00
+[7692000] SPI transaction OK: trans=5 len=4
+[7715000] CMD done
+[8715000] RTL SELF CHECK PASS
+$finish called from file "../tb/tb_SPI_Flash.sv", line 146.
+$finish at simulation time              8715000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 8715000 ps
+CPU Time:      0.840 seconds;       Data structure size:   0.0Mb
+Thu Jun 25 15:54:53 2026

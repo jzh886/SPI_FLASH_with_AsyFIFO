@@ -1,0 +1,3 @@
+Command Line: /home/synopsys/verdi/Verdi_O-2018.09-SP2/platform/LINUXAMD64/bin/Novas -sv -f ../filelist/sim.f -top tb_SPI_Flash -ssf spi_flash.fsdb
+uname(Linux IC_EDA 3.10.0-1160.53.1.el7.x86_64 #1 SMP Fri Jan 14 13:59:45 UTC 2022 x86_64)
+au time 835.953292 8.325847 9.425624 delta 592900096 592900096 total 1017982976 1017982976

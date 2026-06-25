@@ -1,0 +1,15 @@
+*design* DebussyLib (btIdent Verdi_O-2018.09-SP2)
+Command arguments:
+    +define+verilog
+    -sv
+    -f ../filelist/sim.f
+        ../rtl/async_fifo.v
+        ../rtl/SPI_Flash.v
+        ../tb/tb_SPI_Flash.sv
+    -top
+    tb_SPI_Flash
+
+Highest level modules:
+tb_SPI_Flash
+
+Total	0 error(s),   0 warning(s)
